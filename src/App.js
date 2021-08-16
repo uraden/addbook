@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react/cjs/react.development';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import BookTable from './components/BookTable'
 import AddBookForm from './components/AddBookForm'
@@ -10,7 +10,7 @@ function App() {
     { id: 1, book_name: "Lord of Rings ", author: "J. R. R. Tolkien", published_year: 1954 },
     { id: 2, book_name: "Anna Karenina", author: "Leo Tolstoy", published_year: 1878 },
     { id: 3, book_name: "Kite Runner ", author: "Khaled Hosseini", published_year: 2003 },
-     
+    { id: 4, book_name: "Pride and Prejudice ", author: "Jane Austen", published_year: 1813 },
   ]
 
   const [books, setBooks] = useState(bookData)
